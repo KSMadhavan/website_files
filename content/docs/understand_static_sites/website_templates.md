@@ -142,7 +142,7 @@ The names for the above are fairly self explanatory, and we may have come across
 
 ### The front page
 
-- This is the page that a viewer visits when they arrive at http://www.yourdomain.com
+- This is the page that a viewer visits when they arrive at http://www.ksmadhavan.in
 - This base website url is a necessary presence for almost every website. It is typically a descriptive page with some [call to action](https://blog.hubspot.com/marketing/call-to-action-examples)
 - This page if often the first point of contact with an incoming visitor to the webpage and therefore [conversion](https://optinmonster.com/11-web-design-principles-that-will-boost-your-conversion-rate/) happens in the first few seconds here
 - While some may follow a minimalistic design, most websites may want to spend some time on the design of this page

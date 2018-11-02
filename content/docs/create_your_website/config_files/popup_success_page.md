@@ -74,7 +74,7 @@ url = "/docs/create_your_website/add_content/"
 # Writeup goes below
 +++
 
-The settings for the popup success page http://www.yourdomain.com/popup_success/ are contained in the `popup_success.md` file which is in the `content` folder. You can view the sample page [in the demo site](https://template.thinkingtree.me/popup_success/)
+The settings for the popup success page http://www.ksmadhavan.in/popup_success/ are contained in the `popup_success.md` file which is in the `content` folder. You can view the sample page [in the demo site](https://template.thinkingtree.me/popup_success/)
 
 Change these as per your preference. The fields are pretty self explanatory. The layout used is popup_success.html in the layouts/_default folder
 

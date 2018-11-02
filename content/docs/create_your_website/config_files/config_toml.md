@@ -78,22 +78,22 @@ The `config.toml` file contains most of the site settings. It is found directly 
 The following settings need to be changed in the file:
 
 ```toml
-baseurl = "http://www.yourdomain.com/"
-title = "Your Website Name"
+baseurl = "http://www.ksmadhavan.in/"
+title = "K S Madhavan & Associates"
 disqusShortname = "yourdisqusShortname"
 googleAnalytics = "UA-123456789-1"
-copyright = "&copy; 2018 yourCompanyName"
+copyright = "&copy; 2018 K S Madhavan & Associates"
 site_author_name = "yourName"
-role = "yourRole, yourCompanyName"
+role = "Chairman, K S Madhavan & Associates"
 email = "yourName@gmail.com"
 default_description = "-273.15K. So Cool."
-facebook_admin_handle = "yourName"
-twitter_creator_handle = "@yourName"
-twitter_site_handle = "@yourWebsite"
+facebook_admin_handle = "KSMadhavan"
+twitter_creator_handle = "@KSMadhavan"
+twitter_site_handle = "@KSMA"
 favicon = "favicon.jpg"
 apple_touch_icon = "favicon.jpg"
 logo = "logo.jpg"
-map_api_key = "AIzaSyBVTxUD4jy-hOKRaOquYgxpslLv1oMffFg"
+map_api_key = "AIzaSyDha-Xtvn4VY8lzsp3bw9zSw5eH_23MR5Qg"
 latitude = "12.932376"
 longitude = "77.630389"
 img_source = "/img/flowers_line_drawing.jpg" # decorative image for popup
@@ -105,7 +105,7 @@ secondary_forwarding_emails = ["yourName@gmail.com","anotherName@gmail.com"]
 [[params.footer_network]]
     url = "https://www.linkedin.com/in/yourName/"
 [[params.footer_network]]
-    url = "http://github.com/your_username"
+    url = "http://github.com/KSMadhavan"
 ```
 
 The below sample explains each of the settings in the file. You can use it to fill your own settings.
@@ -113,10 +113,10 @@ The below sample explains each of the settings in the file. You can use it to fi
 ```toml
 # Notes. those options marked with * need to be changed. Rest are optional
 #* 1. baseurl is your domain name
-baseurl = "http://www.yourdomain.com/"
+baseurl = "http://www.ksmadhavan.in/"
 
-#* 2. title is your website name
-title = "Your Website Name"
+#* 2. title is K S Madhavan & Associates
+title = "K S Madhavan & Associates"
 
 #* 3. disqus is the third party application we will be using for comments. Get your own disqus shortname here: https://disqus.com/admin/create/ and fill it below
 disqusShortname = "yourdisqusShortname"
@@ -154,7 +154,7 @@ layoutDir ="layouts"
 
 
 #* 9. Your copyright notice - appears in site footer and in RSS. Note: To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 yourCompanyName"
+copyright = "&copy; 2018 K S Madhavan & Associates"
 
 # 10. If enableRobotsTXT is true, a simple robots.txt is created allowing all agents to crawl everything. If you want to create your own robots.txt, then place a robots.txt in the static folder.
 enableRobotsTXT =true
@@ -183,7 +183,7 @@ verboseLog =true
 site_author_name = "yourName"
 
 #* 16. Site creator role. This will be used wherever role is required.
-role = "yourRole, yourCompanyName"
+role = "Chairman, K S Madhavan & Associates"
 
 #* 17. Site creator email. Again used in a bunch of places like contact
 email = "yourName@gmail.com"
@@ -200,7 +200,7 @@ facebook_admin_handle = "yourName"
 twitter_creator_handle = "@yourName"
 
 #* 21. Add your twitter site handle for twitter sharing cards if any, or keep same as twitter_creator_handle
-twitter_site_handle = "@yourWebsite"
+twitter_site_handle = "@KSMadhavan"
 
 
 #* 22. Choose a favicon. Make it really small, and save this in the *static* folder.
@@ -232,7 +232,7 @@ navbar_active = ["Home","Posts","Thoughts","Publications","Reviews","Notes","Con
 # 1. Get key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 # 2. To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 map = true
-map_api_key = "AIzaSyBVTxUD4jy-hOKRaOquYgxpslLv1oMffFg"
+map_api_key = "AIzaSyDha-Xtvn4VY8lzsp3bw9zSw5eH_23MR5Qg"
 latitude = "12.932376"
 longitude = "77.630389"
 zoom = 15
@@ -394,7 +394,7 @@ iconpack = "fa"
 icon = "fa-linkedin"
 
 [[params.footer_network]]
-url = "http://github.com/your_username"
+url = "http://github.com/KSMadhavan"
 iconpack = "fa"
 icon = "fa-github"
 

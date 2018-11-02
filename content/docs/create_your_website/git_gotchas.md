@@ -135,7 +135,7 @@ or you can do both with `git submodule update --init`
 You may work on multiple computers and git is well suited to this. Post the initial setup, when on a new machine, type, which gets the repo and its submodules
 
 ```bash
-git clone --recurse-submodules -j8 https://github.com/your_username/yourWebsite.git
+git clone --recurse-submodules -j8 https://github.com/KSMadhavan/yourWebsite.git
 ```
 
 ### Remote repository url for git submodule not changing

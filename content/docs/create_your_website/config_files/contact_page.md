@@ -73,7 +73,7 @@ url = "/docs/create_your_website/add_content/"
 
 # Writeup goes below
 +++
-The settings for the contact page http://www.yourdomain.com/contact are contained in the `contact.md` file which is in the `content` folder. You can view the sample page [in the demo site](https://template.thinkingtree.me/contact/)
+The settings for the contact page http://www.ksmadhavan.in/contact are contained in the `contact.md` file which is in the `content` folder. You can view the sample page [in the demo site](https://template.thinkingtree.me/contact/)
 
 A contact form is a good way for users to contact you and introduces some interactivity to the site. Even if the site is static, we use a third party application called [Formspree](https://formspree.io/) to enable you to setup a contact form.
 

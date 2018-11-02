@@ -115,12 +115,12 @@ If you are in a hurry though, you should come back to the above later and for no
     - This is because a single config may be used in hundreds of output pages
     - If you are doing a find and replace, then instead of finding every instance in the output page, you might as well just change the config and then rebuild the site
 2. At this stage, you should ensure you modify the following words to your own. You can choose to do a Replace All in your favorite text editor. Instructions for some text editors are in the [next section](#replace-all-instructions-in-different-text-editors) below
-    - yourdomain.com
-    - Your Website Name
-    - your_username
+    - ksmadhavan.in
+    - K S Madhavan & Associates
+    - KSMadhavan
     - yourWebsite
-    - yourCompanyName
-    - yourRole
+    - K S Madhavan & Associates
+    - Chairman
     - yourName
     - anotherName
     - disqusShortname
@@ -166,9 +166,9 @@ Replace All function is not that good in Atom as you have to go file by file to 
 
 1. Note that you would have to exclude the public folder else you would be overwhelmed with results (ensure that you have done step 1 [here](#how-to-modify))
 2. You can choose 'Add Project Folder' with the shortcut Ctrl+Shift+A in the file menu. Choose your website folder.
-3. Then if you press Ctrl+Shift+F you can choose the word you want replaced. For example, lets say you choose 'yourdomain.com'. Add the word you want to replace with but don't press 'Replace All' yet.
+3. Then if you press Ctrl+Shift+F you can choose the word you want replaced. For example, lets say you choose 'ksmadhavan.in'. Add the word you want to replace with but don't press 'Replace All' yet.
 4. Choose the Find All option and a window will open up with the options
-5. In this window, clicking each result will show you the context of the word in a separate window and you can replace it with anything you want. In this case, you would want to replace yourdomain.com with yourrealdomainname.com.
+5. In this window, clicking each result will show you the context of the word in a separate window and you can replace it with anything you want. In this case, you would want to replace ksmadhavan.in with yourrealdomainname.com.
 6. If you are satisfied with all contexts, you can click Replace All or otherwise replace context by context
 
 #### VS Code
@@ -177,7 +177,7 @@ Replace all function is an absolute pleasure in VS Code. If you didn't [download
 
 1. Note that you would have to delete the public folder before this step else you would be overwhelmed with results (ensure that you have done step 1 [here](#how-to-modify))
 2. First, you can choose 'Open Folder' in the File menu (or use the shortcut Ctrl+K+Ctrl+O). Choose your website folder.
-3. Then if you press Ctrl+Shift+F a frame opens up on the left. Type the word you want replaced. For example, lets say you choose 'yourdomain.com' and press Enter
+3. Then if you press Ctrl+Shift+F a frame opens up on the left. Type the word you want replaced. For example, lets say you choose 'ksmadhavan.in' and press Enter
 4. You would see a bunch of results in this frame. At this point, if you are satisfied with the results, you can click the small arrow next to the text box right on top and a *Replace* option would open up.
 5. Now pointing to any result would give you two options - 'Replace' and 'Dismiss'. You can click the result to see the context and then choose appropriately. Since the results are organized by file, you can do this for entire files at once also if necessary.
 

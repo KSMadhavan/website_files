@@ -90,24 +90,24 @@ Let us look at these in more detail
     1. Go to `https://github.com/yourusername/yourblogname`
     2. Click on the settings button towards the right side on the menu on top of the page
     3. Scroll down till you see the Github Pages section. Here you should see a dropdown for 'Source' - which should have a default setting 'None'. Click this and choose **'master branch'**. Click Save
-    4. Add a Custom Domain: Just below the place where you selected the source, there is a text field where you can add a custom domain. Choose `www.yourdomain.com`, where yourdomain.com is the domain you purchased from godaddy
-    5. Save your changes: A success message such as 'Custom domain is saved' and 'Your site is ready to be published at http://www.yourdomain.com/' should appear
+    4. Add a Custom Domain: Just below the place where you selected the source, there is a text field where you can add a custom domain. Choose `www.ksmadhavan.in`, where ksmadhavan.in is the domain you purchased from godaddy
+    5. Save your changes: A success message such as 'Custom domain is saved' and 'Your site is ready to be published at http://www.ksmadhavan.in/' should appear
     6. You can optionally choose 'enforce https'. Sometimes this option works only after some time of the above options being chosen.
 
 ### Add a CNAME record to Godaddy to point to github
 
 On the godaddy DNS page that we saw in the [godaddy setup](/docs/create_your_website/setup_godaddy/) section, we need to now add a CNAME record
 
-1. Go to your DNS page (which should be at https://dcc.godaddy.com/manage/yourdomain.com/dns)
+1. Go to your DNS page (which should be at https://dcc.godaddy.com/manage/ksmadhavan.in/dns)
 2. You should see the list of records right at the top.
 3. Click on 'Add' just below this list
 4. In the options that open up:
     1. Choose Type: `CNAME`
-    2. Choose Host: `www` (if you want to serve website on www.yourdomain.com)
+    2. Choose Host: `www` (if you want to serve website on www.ksmadhavan.in)
     3. Choose Points To: `yourusername.github.io`. Of course replacing yourusername with your own github id
     4. Choose TTL: 1/2 hour or some such. Doesn't make a difference
 
-Now, use your web browser to go to the site http://www.yourdomain.com and ***you should see the webpage ready!***
+Now, use your web browser to go to the site http://www.ksmadhavan.in and ***you should see the webpage ready!***
 
 ### Regular Runs
 

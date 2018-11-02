@@ -224,8 +224,8 @@ We can hold any number of taxonomies like 'tags', for which list pages could be 
 
 1. We could have a taxonomy for actors, one for directors, one for movie genre and so on.
 2. Each of these taxonomies like actors would have multiple terms. For example, the taxonomy actors could have terms like 'Bruce Willis','Tom Cruise' and so on.
-3. Each of these taxonomies would come with a list page like so *`http://www.yourdomain.com/actors`* which lists out all the actors catalogued on the site
-4. Each of the actors would contain a list page like so *`http://www.yourdomain.com/actors/bruce_willis`* which lists out all the movies associated with the actor being catalogued. This is the typical list page mentioned in the previous section.
+3. Each of these taxonomies would come with a list page like so *`http://www.ksmadhavan.in/actors`* which lists out all the actors catalogued on the site
+4. Each of the actors would contain a list page like so *`http://www.ksmadhavan.in/actors/bruce_willis`* which lists out all the movies associated with the actor being catalogued. This is the typical list page mentioned in the previous section.
 5. Both of the above are list pages, the first page lists the terms in the particular taxonomy (for example it just lists the actors), the second lists the pages for which there is content.
 6. So the question arises, how does one specify the content matter and configurations for the taxonomy pages
 
@@ -282,7 +282,7 @@ There are seven kinds of files generated for each format (html,css and javascrip
 ### Storage and URLs
 
 1. First an output directory is created where all the output will be stored.
-2. When you type an url like 'http://yourdomain.com/blogposts/' the server will serve that request by making an attempt to retrieve the html file 'http://yourdomain.com/blogposts/index.html'. This system is known as **Pretty URLs**. Our output of files is based on this.
+2. When you type an url like 'http://ksmadhavan.in/blogposts/' the server will serve that request by making an attempt to retrieve the html file 'http://ksmadhavan.in/blogposts/index.html'. This system is known as **Pretty URLs**. Our output of files is based on this.
 3. While filenames can be of any kind and include spaces and other special characters, weburls cannot take any values. Therefore the page generator would often replace spaces (the most common kind of special character) with underscores
 
 ### Storage of each of the types of files
@@ -315,7 +315,7 @@ Pagination pages If there are multiple pages in the list pagination, say 2 pages
     1. A directory called pages is created under blogposts
     2. Two directories '1' and '2'. Each of these contains an 'index.html' page.
     3. The first page, '1' is always a [simple html redirect (canonical redirect)](https://support.google.com/webmasters/answer/139066?hl=en) back to the base list pages url
-    4. For instance 'http://yourdomain.com/blogposts/pages/1/' would redirect to 'http://yourdomain.com/blogposts/'
+    4. For instance 'http://ksmadhavan.in/blogposts/pages/1/' would redirect to 'http://ksmadhavan.in/blogposts/'
     5. The second page onwards, the complete list page is placed under index.html
 - To summarize, 
     1. the list page for the first pagination page is placed at 'outputFolder/blogposts/index.html'.

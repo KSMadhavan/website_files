@@ -1,7 +1,7 @@
 +++
 
 name = "Albert"
-role = "yourRole, yourCompanyName"
+role = "Chairman, K S Madhavan & Associates"
 
 # Place portrait in img folder
 portrait = "people/albert.jpg"
@@ -59,7 +59,7 @@ teams = ["Leadership"]
 [[social]]
     icon = "fa-github"
     icon_pack = "fa"
-    link = "//github.com/your_username"
+    link = "//github.com/KSMadhavan"
 
 
     # ---------------------------------
@@ -108,9 +108,9 @@ title = "Interests"
 +++
 # Biography
 
-yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow. Traditionally the distinction between research and production had been fairly well demarcated with research institutions working on technologies that were forward looking and companies working on production oriented technology (technologies which made money today). That distinction has become blurred, especially in computer science with much of the cutting edge improvements happening within companies.
+yourName founded K S Madhavan & Associates as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow. Traditionally the distinction between research and production had been fairly well demarcated with research institutions working on technologies that were forward looking and companies working on production oriented technology (technologies which made money today). That distinction has become blurred, especially in computer science with much of the cutting edge improvements happening within companies.
 
-yourCompanyName is an attempt to work on futuristic technologies covering multidisciplinary domains. We follow problems till their origins, dive into rabbit holes and go deep into the root of problems. Many times this leads us to mathematics, which seems to be the foundation of all else. Sometimes it leads to sociology and behavioural science. Few times it leads to the complexity of Biology. Other times it leads to thought experiments. Most of this rests on a backbone of coding as it is ubiquitous as a tool.
+K S Madhavan & Associates is an attempt to work on futuristic technologies covering multidisciplinary domains. We follow problems till their origins, dive into rabbit holes and go deep into the root of problems. Many times this leads us to mathematics, which seems to be the foundation of all else. Sometimes it leads to sociology and behavioural science. Few times it leads to the complexity of Biology. Other times it leads to thought experiments. Most of this rests on a backbone of coding as it is ubiquitous as a tool.
 
 The research areas we work on here are network topologies, computational structures, self-organization and automata, idea space theory. Apart from this core, there is also ongoing work on pattern finding in market microstructure (high frequency trading), and a few applications of complexity and modelling. If you would like to join us to contribute on any of these problems, you are most welcome. We're sure you would find the journey at least slightly enlightening. If you have a problem that you would like us to work on, please contact us below.
 

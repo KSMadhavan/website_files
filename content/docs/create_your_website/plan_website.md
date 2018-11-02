@@ -154,12 +154,12 @@ Keep adding pages till you like. At any point, if you want to view it on your li
 
 1. Open a bash/terminal/command prompt and cd into your website directory
 2. type `./deploy.sh` and then `./commit.sh`
-3. If you added a post called my-new-post.md (as mentioned in the last section), then you should find this on your website at https://www.yourdomain.com/posts/my-new-post/
+3. If you added a post called my-new-post.md (as mentioned in the last section), then you should find this on your website at https://www.ksmadhavan.in/posts/my-new-post/
 
-**Note**: If you want to create this post at a different location (inside https://www.yourdomain.com/posts), then you would have to place it in the appropriate directory in the content folder
+**Note**: If you want to create this post at a different location (inside https://www.ksmadhavan.in/posts), then you would have to place it in the appropriate directory in the content folder
 
 - For example, let's say you want to create a new post named "My New Post" in a directory called `politics`, then when creating the file, you would have to type into your prompt
     ```bash
     hugo new posts/politics/my-new-post.md
     ```
-- Then the output file can be viewed (after `deploy.sh`) at https://www.yourdomain.com/posts/politics/my-new-post/
+- Then the output file can be viewed (after `deploy.sh`) at https://www.ksmadhavan.in/posts/politics/my-new-post/

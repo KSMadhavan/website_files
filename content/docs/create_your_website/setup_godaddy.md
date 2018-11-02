@@ -72,7 +72,7 @@ url = "/docs/create_your_website/add_content/"
 # Writeup goes below
 +++
 
-Ok this section is technically simple, but it's going to take a while. You need to decide your website name and go buy the domain from [godaddy](https://www.godaddy.com/). Feel free to buy it from [other sites](https://makeawebsitehub.com/reviews/domain-registrars/) (namecheap, google domains), but godaddy i've found to be cheap and just about effective.
+Ok this section is technically simple, but it's going to take a while. You need to decide K S Madhavan & Associates and go buy the domain from [godaddy](https://www.godaddy.com/). Feel free to buy it from [other sites](https://makeawebsitehub.com/reviews/domain-registrars/) (namecheap, google domains), but godaddy i've found to be cheap and just about effective.
 
 Note: Godaddy may try a bunch of upsells on you like privacy protection and hosting with charges. You don't need any of these, just buy the domain and in case you need anything you can get it later.
 
@@ -90,10 +90,10 @@ Personally, for any personal site i would go for a cheaper domain name as long a
 6. Typically you may see three buttons here next to your domain: Privacy DNS and Manage.
 7. Click on the DNS button. It should open up another window with the domain you are managing. We will call this Your DNS page from now. Bookmark it if necessary or leave open.
 
-#### Create a forward from yourdomain.com into the www.yourdomain.com
+#### Create a forward from ksmadhavan.in into the www.ksmadhavan.in
 
 1. On Your DNS page, if you scroll fown, you should see a Forwarding section.
-2. You are presently going to create a DNS forwarding from the yourdomain.com into the www.yourdomain.com
+2. You are presently going to create a DNS forwarding from the ksmadhavan.in into the www.ksmadhavan.in
 3. Click on the button next to domain. The options to be input are as follows:
     1. In the Forward to option, in the blank space next to http:// type "www.your-domain.com". This means that it is going to forward from http://your-domain.com to http://www.your-domain.com
     2. In options use forward type: Permanent (301)

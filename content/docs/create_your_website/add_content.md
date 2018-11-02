@@ -114,7 +114,7 @@ If you are making changes to your website from multiple locations, it is importa
     1. Do all setup like downloading [git bash](https://git-scm.com/downloads) and a good text editor like [Atom](https://atom.io/) or [VS Code](https://code.visualstudio.com/)
     2. Create a directory where you want to host your files, say `c:\users\username\website\`
     3. Open your git bash and cd to this new directory
-    4. type `git clone  --recurse-submodules -j8 https://github.com/your_username/yourWebsite.git .`
+    4. type `git clone  --recurse-submodules -j8 https://github.com/KSMadhavan/website.git .`
     5. This should download all your files from the remote directory *including the submodule*
     6. To ensure that everything is in order, you can further type `./pull.sh` and all your files should be synced
 2. Continue to make changes are required in your favorite text editor

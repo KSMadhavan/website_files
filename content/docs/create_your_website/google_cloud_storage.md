@@ -180,12 +180,12 @@ if it does not, then you would have to add TXT record. Let's look at how to do t
 3. If you landed on the browser page and do not have any storage buckets, you should see a large button asking you to create bucket. Other users would see an option to create bucket on the top of their screen above existing buckets.
 4. Click on create bucket. If this is the first use, you may be asked for some project name and organization name. This is to enable good organization of your assets. You can choose any relevant names for project and organization. You can create organization later if necessary.
     1. Older users would straight away go to the next page
-5. Choose name. Be careful here. You must choose exactly "www.yourdomain.com"
+5. Choose name. Be careful here. You must choose exactly "www.ksmadhavan.in"
 6. In Default Storage Class choose Regional
 7. In location, choose the cheapest or the closest option to you depending on your priorities.
     1. If you open out the advanced settings, you should see Labels and encryption, neither of these need to be touched.
 8. Click on create.
-9. You would be back on the Cloud Storage Browser Page. You should be able to see your bucket by the name of "www.yourdomain.com"
+9. You would be back on the Cloud Storage Browser Page. You should be able to see your bucket by the name of "www.ksmadhavan.in"
 10. You now have your very own bucket. Now it is empty, we will fill it with your website shortly. At this point we will go back to godaddy to create a record to live update the website when the bucket is changed.
 
 ## Create CNAME record on godaddy
@@ -204,7 +204,7 @@ if it does not, then you would have to add TXT record. Let's look at how to do t
 ## Create public permissions for your storage bucket
 
 1. Go back to Cloud Storage Browser page
-2. You should see the bucket name as "www.yourdomain.com" along with location, public access level, lifecycle, labels and requester pays. At this point we are interested in making the bucket public.
+2. You should see the bucket name as "www.ksmadhavan.in" along with location, public access level, lifecycle, labels and requester pays. At this point we are interested in making the bucket public.
 3. At the right end of the row with the bucket you should be able to see 3 dots. Click this for settings. You will see (a) Edit bucket permissions (b) Edit labels (c) Edit website configuration and (d) edit default storage class.
 4. Of these the most important to us are (a) Edit bucket permissions and (c) edit website configuration
 5. Click on edit bucket permissions. You will see an option to add members. Use the following options:
@@ -228,9 +228,9 @@ The transfer is simplified through the Google Cloud SDK that we downloaded at th
 2. Then type
 
     ```bash
-    gsutil -m cp -r public gs://www.yourdomain.com
+    gsutil -m cp -r public gs://www.ksmadhavan.in
     ```
 
-3. Ensure that you replace `yourdomain.com` with the one you bought from Godaddy
+3. Ensure that you replace `ksmadhavan.in` with the one you bought from Godaddy
 
 Reference: [cp command in gsutil](https://cloud.google.com/storage/docs/gsutil/commands/cp), [uploading objects to storage bucket](https://cloud.google.com/storage/docs/uploading-objects)

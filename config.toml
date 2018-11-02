@@ -8,19 +8,19 @@
 
 # Notes. those options marked with * need to be changed. Rest are optional
 #* 1. baseurl is your domain name
-baseurl = "http://www.yourdomain.com/"
+baseurl = "http://www.ksmadhavan.in/"
 
-#* 2. title is your website name
-title = "Your Website Name"
+#* 2. title is K S Madhavan & Associates
+title = "K S Madhavan & Associates"
 
 #* 3. disqus is the third party application we will be using for comments. Get your own disqus shortname here: https://disqus.com/admin/create/ and fill it below
-disqusShortname = "thinkingtree-template"
+disqusShortname = "ksmadhavan-in"
 
 #* 4. Enabling Google Analytics on your site enables you to track site usage, referrers and various other statistics.
 ## - See how to get your google analytics ID here: https://support.google.com/analytics/answer/1042508?hl=en
 ## - The file where google analytics is implemented is /layouts/partials/js_scripts/ga.js
 
-googleAnalytics = "UA-119166503-3"
+googleAnalytics = "UA-72791187-1"
 
 # 5. uglyURLs decide how your pages are saved. When enabled, creates URL of the form /filename.html instead of /filename/.
 uglyURLs = false
@@ -49,7 +49,7 @@ layoutDir ="layouts"
 
 
 #* 9. Your copyright notice - appears in site footer and in RSS. Note: To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 yourCompanyName"
+copyright = "&copy; 2018 K S Madhavan & Associates"
 
 # 10. If enableRobotsTXT is true, a simple robots.txt is created allowing all agents to crawl everything. If you want to create your own robots.txt, then place a robots.txt in the static folder.
 enableRobotsTXT =true
@@ -78,7 +78,7 @@ verboseLog =true
     site_author_name = "yourName"
 
     #* 16. Site creator role. This will be used wherever role is required.
-    role = "yourRole, yourCompanyName"
+    role = "Chairman, K S Madhavan & Associates"
 
     #* 17. Site creator email. Again used in a bunch of places like contact
     email = "yourName@gmail.com"
@@ -89,13 +89,13 @@ verboseLog =true
     default_description = "-273.15K. So Cool."
 
     #* 19. Add your FB admin site handle for facebook cards
-    facebook_admin_handle = "yourName"
+    facebook_admin_handle = "KSMadhavan"
 
     #* 20. Add your twitter handle for twitter sharing cards
-    twitter_creator_handle = "@yourName"
+    twitter_creator_handle = "@KSMadhavan"
 
     #* 21. Add your twitter site handle for twitter sharing cards if any, or keep same as twitter_creator_handle
-    twitter_site_handle = "@yourWebsite"
+    twitter_site_handle = "@KSMA"
 
 
     #* 22. Choose a favicon. Make it really small, and save this in the *static* folder.
@@ -127,7 +127,7 @@ verboseLog =true
     # 1. Get key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 # 2. To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
     map = true
-    map_api_key = "AIzaSyBVTxUD4jy-hOKRaOquYgxpslLv1oMffFg"
+    map_api_key = "AIzaSyDha-Xtvn4VY8lzsp3bw9zSw5eH_23MR5Qg"
     latitude = "12.932376"
     longitude = "77.630389"
     zoom = 15
@@ -285,7 +285,7 @@ verboseLog =true
         icon = "fa-linkedin"
 
     [[params.footer_network]]
-        url = "http://github.com/your_username"
+        url = "http://github.com/KSMadhavan"
         iconpack = "fa"
         icon = "fa-github"
 

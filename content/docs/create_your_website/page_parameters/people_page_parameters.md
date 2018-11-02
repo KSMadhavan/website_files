@@ -82,7 +82,7 @@ The people pages have a large number of additional settings over and above the c
 name = "Wise man"
 
 # 2. You can input the role the person plays
-role = "yourRole, yourCompanyName"
+role = "Chairman, K S Madhavan & Associates"
 
 # 3. The portrait image mentioned below can be similar to the caption image and be a generic squarish (width = height) photo of the person.
 # Place portrait in img folder

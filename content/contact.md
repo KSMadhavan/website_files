@@ -24,8 +24,8 @@ title = "CONTACT US"
 subtitle = "_Please leave your message below and we'll get back as soon as we can_"
 title_color = "azure"
 subtitle_color = "#aaa"
-email = "yourName@gmail.com"
-contact_secondary_email = ["anotherName@gmail.com","anotherName@gmail.com"]
+email = "ksm@ksmadhavan.in"
+contact_secondary_email = ["info@shingo.institute","sk.muthuit@gmail.com"]
 
 buttontext = "Send message"
 onSubmit_link = "/contact_success"
